@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import { BrowserRouter, Route,  Switch, Link } from 'react-router-dom';
 
 import Home from '../components/Home';
 import ClientAbout from '../components/ClientAbout';
@@ -11,9 +11,9 @@ export default (props) => {
   
   return (
         <Switch>
-          <Route path="/app/" exact component={Home} />} />
+          <Route path="/app/" exact component={Home} />
           <Route path="/app/posts/:id/" component={Post} />
-          <Route path="/app/about/" render={ClientAbout} />
+          <Route path="/app/about/" component={ClientAbout} />
         </Switch>
   );
 };
