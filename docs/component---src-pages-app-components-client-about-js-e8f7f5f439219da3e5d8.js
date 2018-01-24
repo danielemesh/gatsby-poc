@@ -1,0 +1,2 @@
+webpackJsonp([0xd005daa954d1],{43:function(e,t,n){"use strict";function l(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var u=n(1),o=l(u);t.default=function(e){return console.log("ClientAbout: ",e),o.default.createElement("div",null,o.default.createElement("h1",null,"This is the client's about page component"))},e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-app-components-client-about-js-e8f7f5f439219da3e5d8.js.map
