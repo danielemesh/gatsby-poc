@@ -22,5 +22,8 @@
     "node-fetch": "^1.7.3",
     "reactstrap": "^5.0.0-alpha.4",
     "typography-theme-fairy-gates": "^0.15.11"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
   }
 }

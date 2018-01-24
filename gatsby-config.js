@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: '/gatsby-poc',
   siteMetadata: {
     title: 'AT&T',
   },
